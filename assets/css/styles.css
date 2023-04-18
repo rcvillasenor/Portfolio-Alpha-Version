@@ -224,6 +224,17 @@ section {
     border-radius: 2rem;
 }
 
+/*styling the profile buttons has 3 fundamental aspects: 
+.btn-color-n {
+    border: x;
+    color: y;
+    background: z;
+}
+where n is whichever button we wanna color/stylize, x is the value of the button's border, y is the rgb code/color
+of the font, and z is the rgb code/color of the background of the button itself. note that to add some distinction,
+buttons 1 and 2 in the following end up having somewhat "inverted" states between their hovered and non hovered states.
+*/
+
 .btn-color-1, .btn-color-2 {
     border: rgb(53,53,53) 0.1rem solid;
 }
@@ -262,7 +273,7 @@ section {
 
 .about-containers {
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /*would this function the same as margin: 2rem 0?, css margin prop compound assignment has tb lr assignments if only 2 values*/
     margin-top: 2rem;
 }
 
