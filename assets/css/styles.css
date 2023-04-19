@@ -162,6 +162,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    position: relative;
 } 
 
 .section__pic-container {
@@ -306,3 +307,8 @@ section {
     margin: auto 0;
 }
 
+/*experience section*/
+
+#experience {
+    position: relative;
+}
