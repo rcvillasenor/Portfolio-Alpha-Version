@@ -413,3 +413,13 @@ article .icon {
     height: 2.5rem;
 }
 
+/* footer section*/
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
